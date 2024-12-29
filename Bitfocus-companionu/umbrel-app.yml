@@ -4,20 +4,18 @@ name: Bitfocus companion
 tagline: Automamate your production
 icon: https://github.com/Namarusa/testUmbrel/blob/main/Bitfocus-companionu/companion.png
 category: home & automation
-version: "3.0.1"
-port: 22300
+version: "3.5.0"
+port: 8000
 description: >-
-    
-developer: Laurent Cozic
-website: https://joplinapp.org
-submitter: dennysubke
-submission: https://github.com/dennysubke/dennys-umbrel-app-store
-repo: https://github.com/laurent22/joplin
-support: https://github.com/laurent22/joplin/issues
+    coucou
+developer: 
+website: 
+submitter: 
+submission: 
+repo: 
+support: 
 gallery:
-  - https://i.imgur.com/fWtBRfX.png
-  - https://i.imgur.com/6tsIm9e.png
-  - https://i.imgur.com/MPiwRMU.png
+
 releaseNotes: >-
   Several new features have been introduced, including support for Postgres replication and the ability to display uploaded data size in reports. 
   A new report page has also been added. Performance improvements include optimizations for web client synchronization, logging, and delta change queries. 
