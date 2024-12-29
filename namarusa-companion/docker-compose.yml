@@ -11,3 +11,4 @@ services:
       - "5343:5343"
     volumes:
     - ${APP_DATA_DIR}/data/bitfocus-companion:/companion
+
