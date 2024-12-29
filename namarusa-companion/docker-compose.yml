@@ -10,5 +10,5 @@ services:
       - "28492:28492"
       - "5343:5343"
     volumes:
-      - ${APP_DATA_DIR}/data/bitfocus-companion:/companion
+      - ${APP_DATA_DIR}:/companion
 
