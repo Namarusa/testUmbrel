@@ -2,24 +2,12 @@ services:
   companion:
     image: ghcr.io/bitfocus/companion/companion:3.5.0-7659-main-0f3d0de7
     container_name: bitfocus-companion
-    restart: unless-stopped
+    restart: on-failure
     ports:
-      - target: 8000
-        published: "8000"
-        protocol: tcp
-      - target: 16622
-        published: "16622"
-        protocol: tcp
-      - target: 16623
-        published: "16623"
-        protocol: tcp
-      - target: 28492
-        published: "28492"
-        protocol: tcp
-      - target: 5343
-        published: "5343"
-        protocol: tcp
+      - "8000:8000"
+      - "16622:16622"
+      - "16623:16623"
+      - "28492:28492"
+      - "5343:5343"
     volumes:
-      - type: bind
-        source: ${APP_DATA_DIR}/data/bitfocus-companion
-        target: /companion
+    - ${APP_DATA_DIR}/data/bitfocus-companion:/companion
