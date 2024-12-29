@@ -7,37 +7,6 @@ category: home & automation
 version: "3.0.1"
 port: 22300
 description: >-
-    Joplin Sync Server is an open-source synchronization server for Joplin, the popular note-taking and to-do application.
-    
-    Designed to manage and synchronize notes across devices, Joplin Server provides several key features:
-
-
-    🔄 Synchronization: It allows seamless synchronization of notes, notebooks, and tags across multiple devices, ensuring that changes made on one device are reflected everywhere.
-
-
-    🛡️ Security: Joplin Server supports end-to-end encryption, keeping your data secure during transmission. This means your notes and personal information are protected from unauthorized access.
-
-
-    🔧 Customizability: As an open-source project, Joplin Server can be customized and extended to fit various needs. Users can modify the server to better integrate with their existing infrastructure.
-
-
-    💾 Backup and Restore: It supports backups, enabling users to restore their data in case of accidental loss or corruption.
-
-    
-    🖥️ Web Interface: Joplin Server includes a web interface for easy management of the server and monitoring synchronization status.
-
-    
-    🔒 By using Joplin Server, users can maintain a consistent and secure note-taking experience across all their devices while keeping full control over their data.
-
-
-    🌐 HTTPS Configuration: The browser version of the app can operate over http, but the mobile app requires https. You can set up https using the Cloudflare Tunnel app available in the app store.
-    Detailed instructions for configuring the tunnel can be found here: 
-    
-    
-    https://github.com/Radiokot/umbrel-cloudflared/wiki/How-to-set-up-Cloudflare-Tunnel-on-your-Umbrel
-  
-
-    🔑 By default, Joplin Server will be setup with an admin user with email "admin@localhost" and password "admin".
     
 developer: Laurent Cozic
 website: https://joplinapp.org
