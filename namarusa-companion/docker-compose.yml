@@ -10,7 +10,5 @@ services:
       - "28492:28492"
       - "5343:5343"
     volumes:
-      - type: bind
-        source: ${APP_DATA_DIR}/data/bitfocus-companion
-        target: /companion
+      - ${APP_DATA_DIR}/data/bitfocus-companion:/companion
 
