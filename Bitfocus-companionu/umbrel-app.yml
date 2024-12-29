@@ -2,7 +2,7 @@ manifestVersion: 1
 id: namarusa-companion
 name: Bitfocus companion
 tagline: Automamate your production
-icon: https://bitfocus.io/_next/image?url=%2Fcompanion.png&w=256&q=75
+icon: https://github.com/Namarusa/testUmbrel/blob/main/Bitfocus-companionu/companion.png
 category: home & automation
 version: "3.0.1"
 port: 22300
